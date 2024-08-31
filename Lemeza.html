@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lemeza.css">
+    <title>lemeza marketing group </title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Lameza Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Our Services</a>
+                    <ul>
+                        <li><a href="#">Content Management</a>
+                            <ul>
+                                <li><a href="#">Email Writing</a></li>
+                                <li><a href="#">Proposal Writing</a></li>
+                                <li><a href="#">Web Creation</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Digital Marketing</a>
+                            <ul>
+                                <li><a href="#">Social Media Marketing</a></li>
+                                <li><a href="#">Direct Market Approach</a></li>
+                                <li><a href="#">Sales Agents</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Web Development</a>
+                            <ul>
+                                <li><a href="#">Web Creation</a></li>
+                                <li><a href="#">SEO</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">AI</a>
+                    <ul>
+                        <li><a href="#">AI Customer Relationship</a></li>
+                        <li><a href="#">Responding to Clients</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Blog</a>
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Lameza Updates</a></li>
+                        <li><a href="#">Local Authorities</a></li>
+                    </ul>
+                </li>
+                <button>
+                <li><a href="#">Contact Us</a></li>
+            </button>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        // JavaScript code to handle dropdown functionality
+document.querySelectorAll('nav ul li').forEach(function(menuItem) {
+    menuItem.addEventListener('mouseover', function() {
+        this.querySelector('ul').style.display = 'block';
+    });
+    menuItem.addEventListener('mouseout', function() {
+        this.querySelector('ul').style.display = 'none';
+    });
+});
+
+// Smooth scroll to sections
+document.querySelectorAll('.cta-button, .button-container button').forEach(button => {
+    button.addEventListener('click', function(event) {
+        event.preventDefault();
+        const targetId = this.getAttribute('href') ? this.getAttribute('href').substring(1) : '';
+        if (targetId) {
+            document.getElementById(targetId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+    </script>
+      <section class="hero">
+        <h1>Welcome to Lameza Marketing Group</h1>
+        <p>Elevating your brand with expert digital marketing strategies.</p>
+        <button class="cta-button">Get Started</button>
+    </section>
+
+    </div>
+    <article class="first-container">
+    <div class="stcontainer">
+        <div class="text">
+            <h2> At Lameza Marketing Group, we elevate your brand and drive impactful results
+            <span>Boosting sales, audience growth, visibility</span> through expert digital marketing strategies</h2>
+            <p>By choosing Lameza for your digital marketing strategy, you gain the power to elevate your business to new heights.</p>
+        </div>
+            <div class="imdg">
+            <img src="DIGTAL MARKETINGH.png" alt="digital market">
+        </div>
+    </div>
+    <div class="firstbutton">
+        <button>
+        <a href="#"></a>Let's Discuss</a></button>
+        </div>
+    </article>
+
+
+
+
+
+    <div class="box">
+        <div class="text">
+            <h2>SOCIAL MEADIA MARKETING</h2>
+            <p>Transform your brand with expert content creation! From engaging articles to captivating visuals, we craft and distribute compelling content that drives results and connects with your audience.</p>
+        </div>
+        <div class="content-section">
+            <div class="content-item">
+                <img src="facebookicon.png" alt="Icon">
+                <h3>Facebook</h3>
+            </div>
+            <div class="content-item">
+                <img src="tktok.png" alt="Icon">
+                <h3>Tiktok</h3>
+            </div>
+            <div class="content-item">
+                <img src="instagram.jfif" alt="Icon">
+                <h3>Instagram</h3>
+            </div>
+            <div class="content-item">
+                <img src="linkedinicon.png" alt="Icon">
+                <h3>Linked In</h3>
+            </div>
+        </div>       
+        <div class="button-container">
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="text">
+            <h2>CONTENT CREATION</h2>
+            <p>Lameza Marketing Group crafts tailored, engaging content that captures your audience and boosts your brand's online presence. From blogs to visuals, we ensure consistency, SEO optimization, and multi-channel distribution.</p>
+        </div>
+        <div class="content-section">
+            <div class="content-item">
+                <img src="website creation icon.webp" alt="Icon">
+                <h3>Content Creation</h3>
+            </div>
+            <div class="content-item">
+                <img src="icon2.png" alt="Icon">
+                <h3>Content Marketing</h3>
+            </div>
+            <div class="content-item">
+                <img src="icon3.png" alt="Icon">
+                <h3>Design</h3>
+            </div>
+            <div class="content-item">
+                <img src="icon4.png" alt="Icon">
+                <h3>Social Media Marketing</h3>
+            </div>
+        </div>       
+        <div class="button-container">
+            <button>Read More</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="text">
+            <h2>DESIGN</h2>
+            <p>Transform your brand with expert content creation from Lameza Marketing Group. We craft engaging, SEO-optimized content and visuals tailored to your audience, ensuring impactful results across all digital channels..</p>
+        </div>
+        <div class="content-section">
+            <div class="content-item">
+                <img src="website creation icon.webp" alt="Icon">
+                <h3>Content Creation</h3>
+            </div>
+            <div class="content-item">
+                <img src="icon2.png" alt="Icon">
+                <h3>Content Marketing</h3>
+            </div>
+            <div class="content-item">
+                <img src="icon3.png" alt="Icon">
+                <h3>Design</h3>
+            </div>
+            <div class="content-item">
+                <img src="icon4.png" alt="Icon">
+                <h3>Social Media Marketing</h3>
+            </div>
+        </div>       
+        <div class="button-container">
+            <button>Read More</button>
+        </div>
+    </div>
+
+    <section class="hero">
+        <h1>GROW YOUR BUSINESS CONFIDENTLY WITH LAMEZA</h1>
+        <p>We help your company develop a comprehensive global digital marketing strategy, launch marketing campaigns across various digital channels (including websites, social networks, online advertising, and email marketing), and assess and optimize the resulting performance.
+        </p>
+        <button class="cta-button">Let's Discuss</button>
+    </section>
+   
+    <aside>
+        i would to <summary>invuite every </summary>one next tine to come ealier
+    </aside>
+</body>
+</html>
